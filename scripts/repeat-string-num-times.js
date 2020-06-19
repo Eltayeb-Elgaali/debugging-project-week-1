@@ -3,7 +3,10 @@
 console.log('-- loading: repeatStringNumTimes');
 
 
-function repeatStringNumTimes() { }
+function repeatStringNumTimes(str, num) 
+{ 
+   return str.repeat(num);
+}
 
 
 {
@@ -58,12 +61,15 @@ function repeatStringNumTimesHandler() {
   debugger;
 
   // read user input
+  
 
   // core logic
-  const result = repeatStringNumTimes(str, num);
+  
 
   // display for use
+  
 
   // log for developers
+  
 }
 
