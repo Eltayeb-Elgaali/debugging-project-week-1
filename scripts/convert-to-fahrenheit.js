@@ -56,7 +56,9 @@ function convertToFahrenheitHandler() {
   const result = convertToFahrenheit(c);
 
   // display for use
- 
+  
+  alert('The Temprature in fahrenheit is: ' + result);
 
   // log for developers
+  console.log(result);
 }
