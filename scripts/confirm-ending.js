@@ -74,14 +74,14 @@ function confirmEndingHandler() {
   // read user input
   const input = prompt('enter a text to confirm ending');
   // core logic
-  const result = confirmEnding(str, ending);
-
-  // display for use
   if (string.substr(-target.length) === target) {
     return true;
   } else {
     return false;
   }
+  // display for use
+
+  const result = confirmEnding(str, ending);
   // log for developers
   console.log(confirmEnding)
 }

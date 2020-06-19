@@ -50,12 +50,14 @@ function reverseStringHandler() {
   debugger;
 
   // read user input
+  const input = prompt('type any text and I will reverse it.')
 
   // core logic
   const result = reverseString(str);
 
   // display for use
-
+alert(result);
   // log for developers
+  console.log(reverseString);
 }
 
