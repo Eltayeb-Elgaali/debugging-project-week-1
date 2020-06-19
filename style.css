@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #02020a;
+}
+
+.btn-wrapper {
+    border: 2px solid #36f1cd;
+    border-radius: 5px;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.func-btn {
+    flex: 0 1 180px;
+    height: 35px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #870058;
+    color: #fff;
+    font-size: 15px;
+}
