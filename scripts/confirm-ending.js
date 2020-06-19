@@ -5,13 +5,12 @@ console.log('-- loading: confirmEnding');
 
 function confirmEnding(string, target) {
   if (string.substr(-target.length) === target) {
-    return true;
-  } else {
-    return false;
-  }
-}
+  return true;
+} else {
+  return false;}
+  
 confirmEnding('Bastian', 'n');
-
+}
 
 {
   console.log('-- testing: confirmEnding ');
@@ -64,13 +63,15 @@ confirmEnding('Bastian', 'n');
   const _8_expect = true;
   const _8_actual = confirmEnding(_8_arg_1, _8_arg_2);
   console.assert(_8_actual === _8_expect, 'Test 8');
+}
 
 function confirmEndingHandler() {
   debugger;
 
   // read user input
-  const str = prompt('enter a text to confirm ending');
-  const ending = prompt('confirm the ending');
+
+  const str = prompt('enter text ending to be confirmed');
+  const ending = prompt('type the ending for confirmation');
 
   // core logic
   const result = confirmEnding(str, ending);
@@ -78,6 +79,7 @@ function confirmEndingHandler() {
   // display for use
 
   const result = confirmEnding(str, ending);
+
   // log for developers
 
   console.log(result)
