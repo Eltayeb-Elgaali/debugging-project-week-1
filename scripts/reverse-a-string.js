@@ -53,11 +53,11 @@ function reverseStringHandler() {
   const input = prompt('type any text and I will reverse it.')
 
   // core logic
-  const result = reverseString(str);
+  const result = reverseString(input);
 
   // display for use
-alert(result);
+ alert(result);
   // log for developers
-  console.log(reverseString);
+  console.log(result);
 }
 

@@ -65,23 +65,20 @@ confirmEnding('Bastian', 'n');
   const _8_actual = confirmEnding(_8_arg_1, _8_arg_2);
   console.assert(_8_actual === _8_expect, 'Test 8');
 
-}
-
-
 function confirmEndingHandler() {
   debugger;
 
   // read user input
-  const input = prompt('enter a text to confirm ending');
+  const str = prompt('enter a text to confirm ending');
+  const ending = prompt('confirm the ending');
+
   // core logic
-  if (string.substr(-target.length) === target) {
-    return true;
-  } else {
-    return false;
-  }
+  const result = confirmEnding(str, ending);
+  
   // display for use
 
   const result = confirmEnding(str, ending);
   // log for developers
-  console.log(confirmEnding)
+
+  console.log(result)
 }
