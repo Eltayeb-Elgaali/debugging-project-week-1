@@ -48,11 +48,21 @@ function convertToCelsiusHandler() {
     debugger;
 
     // read user input
+    const input = prompt('Enter temperature in Fahrenheit');
 
     // core logic
-    const result = convertToCelsius(f);
+
+    const result = convertToCelsius(input);
 
     // display for use
+    if (Object.is(result, NaN)) {
+        alert("Please enter a valid temperature value")
+    } else {
+        alert(result);
+    }
+
 
     // log for developers
+    console.log(result);
+
 }
