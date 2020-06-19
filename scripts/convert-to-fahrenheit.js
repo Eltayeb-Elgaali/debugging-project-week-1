@@ -3,7 +3,10 @@
 console.log('-- loading: convertToFahrenheit');
 
 
-function convertToFahrenheit() { }
+function convertToFahrenheit(c) 
+ {
+  return c * 9 / 5 + 32;
+ }
 
 
 {
@@ -46,11 +49,16 @@ function convertToFahrenheitHandler() {
   debugger;
 
   // read user input
+  let c = prompt("please enter the temperature degree in celsius");
 
   // core logic
+  
   const result = convertToFahrenheit(c);
 
   // display for use
+  
+  alert('The Temprature in fahrenheit is: ' + result);
 
   // log for developers
+  console.log(result);
 }
