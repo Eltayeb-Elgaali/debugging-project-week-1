@@ -26,7 +26,7 @@ It is a way to learn the basics of JavaScript basics and practice git workflow s
 > This project use [w3-validation-template](https://github.com/HackYourFutureBelgium/w3-validation-template)
 
 ## Screenshots
-![Example screenshot](./images/Debugging-project-week1.png)
+![Example screenshot](images/Debugging-project-week1.png)
 
 ## Technologies
 * HTML5
