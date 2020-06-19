@@ -72,11 +72,16 @@ function confirmEndingHandler() {
   debugger;
 
   // read user input
-
+  const input = prompt('enter a text to confirm ending');
   // core logic
   const result = confirmEnding(str, ending);
 
   // display for use
-
+  if (string.substr(-target.length) === target) {
+    return true;
+  } else {
+    return false;
+  }
   // log for developers
+  console.log(confirmEnding)
 }
