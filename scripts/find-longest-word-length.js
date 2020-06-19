@@ -50,11 +50,13 @@ function findLongestWordLengthHandler() {
     debugger;
 
     // read user input
-
+    const input = prompt('Enter a sentence and I will tell you the length of the longest word');
     // core logic
-    const result = findLongestWordLength(str);
+    const result = findLongestWordLength(input);
 
     // display for use
+    alert(result);
 
     // log for developers
+    console.log(result);
 }
